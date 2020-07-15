@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  consolegoapp:
+    image: consolegoapp
+    build: .
+    ports:
+      - 3000
